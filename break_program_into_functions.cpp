@@ -66,7 +66,7 @@ int main()
     return 0;
 }
 */
-
+/*
 void dessineRectangle(int l, int h)
 {
     for(int ligne(0); ligne < h; ligne++)
@@ -88,5 +88,22 @@ int main()
     cin >> hauteur;
     
     dessineRectangle(largeur, hauteur);
+    return 0;
+}
+*/
+
+int ajouteDeux(int a)
+{
+    a+=2;
+    return a;
+}
+
+int main()
+{
+    int nombre(4), resultat;
+    resultat = ajouteDeux(nombre);
+    
+    cout << "Le nombre original vaut : " << nombre << endl;
+    cout << "Le resultat vaut : " << resultat << endl;
     return 0;
 }
